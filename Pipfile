@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-aoc-helper = "*"
 black = "*"
+numpy = "*"
 
 [dev-packages]
 
