@@ -36,19 +36,5 @@ def second_part():
     print(f"Similarity score: {similarity_score}")
 
 
-def a2():
-    import numpy as np
-
-    sum = 0
-    data = np.loadtxt("day1test.dat", dtype=int)  # , usecols=np.arange(0, 2)
-    print(np.sort(data[:, 0]))
-    print(np.sort(data[:, 1]))
-
-    for a, b in zip(np.sort(data[:, 0]), np.sort(data[:, 1])):
-        sum = sum + abs(a - b)
-
-    print(sum)
-    
-# first_part()
-# second_part()
-a2()
+first_part()
+second_part()
